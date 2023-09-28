@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* Styling the header of the section */
+
+
+header {
+    background-color: #172035;
+   width: 100%;
+   height: 80px;
+}
+
+img#logo {
+    position: absolute;
+    margin: 0 100px;
+    top: 17px;
+    left: 0;
+}
+
+nav {
+    display: inline-block;
+    margin: 30px 0 0 400px;
+}
+
+nav a {
+color: #fff;
+margin-right: 20px;
+text-decoration: none;
+font-weight: 2em;
+}
+
+nav a:hover {
+    color: #fff;
+    background: #09568d;
+    padding: 30px 20px;
+}
+
+
+/* ''''''''''''''''''''''''''''''''''''End of Header Section '''''''''''''''''''''''''''''''''''''''''' */
+
+
+/* '''''''''''''''''''''''''''''''''''''Starting of Primary section """"""""""""""""""""""""""""""""""""""' */
+
+button {
+    width: 50%;
+    height: 40px;
+    border: none;
+    background: #172035;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #09568d;
+}
+
+.preSection h1 {
+    font-size: 4rem;
+}
+
+.preSection h3 {
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.preSection p {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    width: 60%;
+}
+
+#primary .preSection {
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+}
+
+#primary #priImage {
+  width: 100%;
+  height: 550px;
+}
+
+
+/* """"""""""""""""""""""""""""""""""""""""""""""""End of Primary Section """""""""""""""""""""""""""""""""""""""""""""""""""""" */
+
+
+/* ''''''''''''''''''''''''''''''''''''''''''''''''''Starting of Secondary Section''''''''''''''''''''''''''''''''''''''''''''''' */
+
+.highFont {
+    font-size: 4rem;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#secSection {
+    display: flex;
+    margin: 0 50px;
+} 
+
+#secSection .secSlide {
+    margin: 0 10px;
+    text-align: center;
+}
+
+#secSection .secSlide h3 {
+    padding: 10px 0;
+}
+
+/* ''''''''''''''''''''''''''''''''''''''''''''''''''Ending of Secondary Section''''''''''''''''''''''''''''''''''''''''''''''' */
+
+#third {
+    background: #252525;
+    margin-top: 50px;
+    color: #fff;
+    height: 300px;
+}
+
+#thSection {
+    display: flex;
+    margin: 20px 140px;
+}
+
+.thSlides {
+    background-color: black;
+    height: 60px;
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.hfour {
+    padding: 10px 0;
+}
+
+
+/* ''''''''''''''''''''''''''''''''''Footer Section '''''''''''''''''' */
+
+footer {
+    margin-top: 50px;
+    background-color: #172035;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#footImage {
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+footer p {
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+/* ''''''''''''''''''''''''''This is Tech Support Section '''''''''''''''''' */
+
+#techWrapper {
+    margin: 0 20%;
+}
+
+.techSlide {
+   display: flex;
+   margin-bottom: 40px;
+}
+
+.slide {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.slide h1 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.preSlide {
+    display: flex;
+    margin:0 20%;
+}
+
+.premiumSlide {
+    margin-right: 30px;
+}
+.premiumSlide h3 {
+    padding-bottom: 20px;
+}
+
+#premium {
+    margin-bottom: 150px;
+}
+
+#contact {
+    margin: 0 40%;
+}
